@@ -3,8 +3,6 @@ terraform {
     bucket         = "rana01990"
     region         = "us-east-1"
     key            = "GAME-PROJECT/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
-    encrypt        = true
   }
   required_version = ">=0.13.0"
   required_providers {
